@@ -11,8 +11,6 @@ namespace Identity.Seeds
             //Seed Roles
             await roleManager.CreateAsync(new IdentityRole(Roles.Admin.ToString()));
             await roleManager.CreateAsync(new IdentityRole(Roles.Basic.ToString()));
-
-
         }
     }
 }
